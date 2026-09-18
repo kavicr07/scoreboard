@@ -1,0 +1,54 @@
+@font-face {
+    font-family: my font;
+    src: url(digital.ttf);
+    font-weight: bolder;
+}
+@font-face {
+    font-family: title;
+    src: url(Milker.otf);
+    font-weight: bold;
+}
+.title {
+    font-family: title;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-size: 100px;
+}
+#no-elh, #no-elg {
+    font-family: my font;
+    color: red;
+    font-size: 200px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+button {
+    font-family: my font;
+    font-size: 80px;
+    background: rgb(6, 6, 59);
+    color: white;
+    border-color: white;
+    border-radius: 15px;
+    margin:0px 10px 50px 10px;
+    padding : 5px 10px;
+    cursor: pointer;
+}
+
+body {
+    margin:0;
+    background-color: rgb(6, 6, 59);
+}
+
+.main {
+    display: flex;
+    justify-content:space-around;
+}
+#home {
+    text-align: center;
+    
+}
+#guest {
+    text-align: center;
+}
